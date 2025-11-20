@@ -12,7 +12,7 @@ export const HeroTop = ({ width }: { width: number }) => {
         return (
             <div className='w-full flex flex-col items-center justify-center'>
                 <h1 className='py-10 text-[120px] crimson-text'>Browse everything.</h1>
-                <img loading="lazy" src="/public/hero-t.svg" alt="hero image" className='w-full' />
+                <img loading="lazy" src="/public/hero-t.avif" alt="hero image" className='w-full' />
             </div>
         )
     }
@@ -20,7 +20,7 @@ export const HeroTop = ({ width }: { width: number }) => {
     return (
         <div className='w-full flex flex-col items-center justify-center'>
             <h1 className='py-10 text-[140px] crimson-text'>Browse everything.</h1>
-            <img loading="lazy" src="/public/hero-d.svg" alt="hero image" className='w-full' />
+            <img loading="lazy" src="/public/hero-d.avif" alt="hero image" className='w-full' />
         </div>
     )
 }
